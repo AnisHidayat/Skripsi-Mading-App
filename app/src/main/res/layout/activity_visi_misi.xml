@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.learn.madingapp.VisiMisiActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginLeft="155dp"
+                            android:layout_marginTop="@dimen/activity_vertical_margin"
+                            android:layout_marginRight="@dimen/activity_horizontal_margin"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            android:background="@drawable/cerclebackgroundgreen"
+                            android:src="@drawable/visi"
+                            app:civ_border_color="#fff" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="24dp"
+                            android:text="@string/visi"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/isi_visi"
+                            android:textAlignment="center"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="25dp"
+                            android:layout_marginLeft="155dp"
+                            android:layout_marginRight="@dimen/activity_horizontal_margin"
+                            android:layout_marginBottom="@dimen/activity_vertical_margin"
+                            android:background="@drawable/cerclebackgroundgreen"
+                            android:src="@drawable/misi"
+                            app:civ_border_color="#fff"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/misi"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:layout_marginLeft="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/isi_misi"
+                            android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+                </LinearLayout>
+        </ScrollView>
+</RelativeLayout>
+
+    <!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--    xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    tools:context="com.learn.madingapp.VisiMisiActivity">-->
+
+    <!--        <ScrollView-->
+    <!--            style="@android:style/Widget.Holo.Light.ScrollView"-->
+    <!--            android:layout_width="396dp"-->
+    <!--            android:layout_height="12dp"-->
+    <!--            android:scrollbarStyle="insideInset"-->
+    <!--            app:layout_constraintBottom_toTopOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent">-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/textView"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginTop="12dp"-->
+    <!--                    android:text="@string/visi_misi_sekolah"-->
+    <!--                    android:textSize="18sp"-->
+    <!--                    android:textStyle="bold"-->
+    <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                    app:layout_constraintHorizontal_bias="0.582"-->
+    <!--                    app:layout_constraintStart_toStartOf="parent"-->
+    <!--                    app:layout_constraintTop_toBottomOf="@+id/profile_image"-->
+    <!--                    tools:ignore="MissingConstraints" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/textView2"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="16dp"-->
+    <!--                    android:layout_marginTop="64dp"-->
+    <!--                    android:text="@string/visi"-->
+    <!--                    android:textSize="22sp"-->
+    <!--                    android:textStyle="bold"-->
+    <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                    app:layout_constraintHorizontal_bias="0.0"-->
+    <!--                    app:layout_constraintStart_toEndOf="@+id/circleImageView"-->
+    <!--                    app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/textView4"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="8dp"-->
+    <!--                    android:layout_marginEnd="12dp"-->
+    <!--                    android:text="@string/misi"-->
+    <!--                    android:textSize="22sp"-->
+    <!--                    android:textStyle="bold"-->
+    <!--                    app:layout_constraintEnd_toStartOf="@+id/circleImageView1"-->
+    <!--                    app:layout_constraintHorizontal_bias="1.0"-->
+    <!--                    app:layout_constraintStart_toStartOf="parent"-->
+    <!--                    tools:ignore="MissingConstraints"-->
+    <!--                    tools:layout_editor_absoluteY="383dp" />-->
+
+    <!--                <TextView-->
+    <!--                    android:id="@+id/textView3"-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:layout_marginStart="16dp"-->
+    <!--                    android:layout_marginTop="4dp"-->
+    <!--                    android:text="@string/isi_visi"-->
+    <!--                    app:layout_constraintStart_toEndOf="@+id/circleImageView"-->
+    <!--                    app:layout_constraintTop_toBottomOf="@+id/textView2" />-->
+
+    <!--                <TextView-->
+    <!--                    android:layout_width="wrap_content"-->
+    <!--                    android:layout_height="wrap_content"-->
+    <!--                    android:text="@string/isi_misi"-->
+    <!--                    android:scrollbars="vertical"-->
+    <!--                    app:layout_constraintEnd_toStartOf="@+id/circleImageView1"-->
+    <!--                    app:layout_constraintHorizontal_bias="0.0"-->
+    <!--                    app:layout_constraintStart_toStartOf="parent"-->
+    <!--                    app:layout_constraintTop_toBottomOf="@+id/textView4" />-->
+
+    <!--                <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--                    android:id="@+id/profile_image"-->
+    <!--                    android:layout_width="70dp"-->
+    <!--                    android:layout_height="70dp"-->
+    <!--                    android:layout_alignParentTop="true"-->
+    <!--                    android:layout_centerHorizontal="true"-->
+    <!--                    android:layout_marginTop="16dp"-->
+    <!--                    android:background="@drawable/cerclebackgroundgreen"-->
+    <!--                    android:src="@drawable/visimisi"-->
+    <!--                    app:civ_border_color="#fff"-->
+    <!--                    app:civ_border_width="2dp"-->
+    <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                    app:layout_constraintHorizontal_bias="0.557"-->
+    <!--                    app:layout_constraintStart_toStartOf="parent"-->
+    <!--                    app:layout_constraintTop_toTopOf="parent"-->
+    <!--                    tools:ignore="MissingConstraints" />-->
+
+    <!--                <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--                    android:id="@+id/circleImageView"-->
+    <!--                    android:layout_width="130dp"-->
+    <!--                    android:layout_height="130dp"-->
+    <!--                    android:layout_marginTop="64dp"-->
+    <!--                    android:src="@drawable/visimisi"-->
+    <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                    app:layout_constraintHorizontal_bias="0.024"-->
+    <!--                    app:layout_constraintStart_toStartOf="parent"-->
+    <!--                    app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+    <!--                <de.hdodenhof.circleimageview.CircleImageView-->
+    <!--                    android:id="@+id/circleImageView1"-->
+    <!--                    android:layout_width="130dp"-->
+    <!--                    android:layout_height="130dp"-->
+    <!--                    android:layout_marginTop="76dp"-->
+    <!--                    android:src="@drawable/visimisi"-->
+    <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                    app:layout_constraintHorizontal_bias="0.943"-->
+    <!--                    app:layout_constraintStart_toStartOf="parent"-->
+    <!--                    app:layout_constraintTop_toBottomOf="@+id/textView3" />-->
+
+    <!--        </ScrollView>-->
+
+    <!--</android.support.constraint.ConstraintLayout>-->
